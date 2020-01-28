@@ -13,5 +13,10 @@ public class MessageTest {
 	public void messageSaysHello() {
 		assertThat(message.sayHello(), containsString("Hi,"));
 	}
+	@Test
+	public void messageSaysHello() {
+		assertThat(message.sayHello(), containsString("johanerr"));
+	}
+
 
 }
